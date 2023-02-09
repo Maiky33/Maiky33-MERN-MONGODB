@@ -1,0 +1,10 @@
+*{  
+    margin: 0px;
+    padding: 0px;
+    color: #f1f1f6;
+    font-family: 'Inconsolata', monospace;
+}
+
+.App{   
+    background-color: #8f61db;
+}

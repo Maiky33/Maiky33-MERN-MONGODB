@@ -1,0 +1,22 @@
+.Home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background: linear-gradient(100deg,#212123 90%, transparent 93%);
+    height: 700px;
+}
+
+.Home_Contain-Title{    
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.Home_Image{    
+    width: 500px;
+    border-radius: 15px;
+}
+.Home_title{    
+    font-size: 50px;
+}
