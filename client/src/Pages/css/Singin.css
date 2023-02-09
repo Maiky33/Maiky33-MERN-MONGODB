@@ -1,0 +1,40 @@
+.singin{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212123;
+    height: 700px;
+}
+.SingInForm{    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    padding: 50px;
+    border-radius: 15px;
+    background-color: #414142;
+}
+.singinLabelForm{   
+    width:100%;
+    font-size: 30px;
+}
+.singinInputForm{   
+    width: 85%;
+    border-radius: none;
+    border-radius: 10px;
+    outline: none;
+    color: #212123;
+    font-size: 15px;
+    padding: 20px;
+}
+.singinButtonForm{  
+    background-color: #945ed5;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    padding: 20px;
+    font-size: 15px;
+}
