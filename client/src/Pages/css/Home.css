@@ -28,3 +28,30 @@
     width: 500px;
     border-radius: 15px;
 }
+
+
+
+@media screen and (max-width:1310px) {
+    .Home_Image{    
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:1190px) {
+    .Home{  
+        padding: 150px;
+    }
+}
+
+@media screen and (max-width:1076px) {
+    .Home {
+        padding: 100px;
+        flex-direction: column;
+        gap:50px;
+    }
+}
+@media screen and (max-width:540px) {
+    .Home_Image {
+        width: 300px;
+    }
+}

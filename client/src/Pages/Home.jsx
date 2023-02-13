@@ -10,7 +10,7 @@ const Home = () => {
           <br />
           <span className="CustomGame">CustomGame</span>
         </h1>
-        <p>Best gaming products in the world</p>
+        <p>Best gaming products in<br/>the world</p>
         <p>Protected Purchase</p>
       </div>
       <img className="Home_Image" src={ImageHome} alt="ImageHome" />

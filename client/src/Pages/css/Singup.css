@@ -1,37 +1,48 @@
-.singin{    
+.singup {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #212123;
-    padding: 130px;
+    padding: 90px;
 }
-.TitleForm{ 
+
+.TitleForm {
     font-size: 20px;
 }
-.SingInForm{    
+
+.SingUpForm {
     display: flex;
     flex-direction: column;
-    justify-content:center;
-    gap: 30px;
+    justify-content: center;
+    gap: 20px;
     align-items: center;
     width: 300px;
     padding: 50px;
     border-radius: 15px;
     background-color: #414142;
 }
-.singinLabelForm{   
+
+.ContainerItems{    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.singUpLabelForm {
     font-size: 20px;
 }
-.singinInputForm{   
+
+.singUpInputForm {
     border-radius: none;
     border-radius: 10px;
     outline: none;
     color: #212123;
     font-size: 15px;
-    padding: 15px;
     margin-top: 10px;
+    padding: 15px;
 }
-.singinButtonForm{  
+
+.singUpButtonForm {
     background-color: #945ed5;
     cursor: pointer;
     border: none;

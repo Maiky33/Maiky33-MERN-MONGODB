@@ -3,11 +3,11 @@
     justify-content: space-between;
     align-items: center;
     background-color: #191919;
-    padding: 0px 100px;
+    padding: 10px 200px;
 }
 
 .Logo{  
-    width: 100px;
+    width: 70px;
     cursor: pointer;
 }
 
@@ -24,4 +24,22 @@
     border-radius: 10px;
     cursor: pointer;
     font-size: 17px;
+}
+
+@media screen and (max-width:814px) {
+    .Nav{   
+        padding: 10px 100px;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .Nav {
+        padding: 10px 50px;
+    }
+}
+
+@media screen and (max-width:402px) {
+    .Nav {
+        padding: 10px 20px;
+    }
 }
